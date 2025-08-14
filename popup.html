@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Goose Guard</title>
+  <style>
+    :root{
+      --bg: radial-gradient(120% 120% at 30% 10%, #a78bfa 0%, #7c3aed 35%, #4c1d95 70%, #1f1147 100%);
+      --card: rgba(255,255,255,.08);
+      --border: rgba(255,255,255,.12);
+      --text: #f5f3ff; --sub:#c4b5fd; --accent:#f0abfc;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; padding:14px; width:320px; min-height:140px;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text); background:var(--bg);
+    }
+    header{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    header img{width:32px;height:32px;border-radius:999px;border:1px solid var(--border);object-fit:cover}
+    h3{margin:0;font-size:16px}
+    p{margin:6px 0 0;color:var(--sub);font-size:12px}
+    button{
+      width:100%; padding:10px 12px; border-radius:12px; border:1px solid var(--border);
+      background:var(--card); color:var(--text); font-weight:700; cursor:pointer;
+    }
+    button:hover{border-color:var(--accent)}
+  </style>
+</head>
+<body>
+  <header>
+    <img id="brand-logo" alt="logo" />
+    <div>
+      <h3>Goose Guard</h3>
+      <p>On-device Terms scanner • galaxy theme</p>
+    </div>
+  </header>
+
+  <button id="scan">Scan This Page</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
