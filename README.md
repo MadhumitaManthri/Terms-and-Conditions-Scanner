@@ -1,5 +1,5 @@
 # Terms-and-Conditions-Scanner
-Goose Guard is a chrome extension that scans Terms/Privacy pages, highlights risky clauses, and shows an explainable risk score with examples.
+>Goose Guard is a chrome extension that scans Terms/Privacy pages, highlights risky clauses, and shows an explainable risk score with examples.
 
 How it works:
 >loads the content script that walks visible text nodes on the page
