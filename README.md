@@ -18,6 +18,8 @@ How to use:
 >In order to reset, refresh the page and repeat the above process
 
 User interface:
+
+
 <img width="321" height="237" alt="image" src="https://github.com/user-attachments/assets/b2705abe-6f6a-4433-bece-a74acd06f3ef" />
 <img width="300" height="420" alt="image" src="https://github.com/user-attachments/assets/38732bf3-8806-4ea6-b3ee-9b0d5e053e02" />
 
