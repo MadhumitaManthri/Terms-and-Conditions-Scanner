@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Goose Guard",
+  "version": "1.0.0",
+  "description": "Scan any web page for risky clauses (arbitration, auto-renewal, data sharing, etc.) and show a simple risk panel.",
+  "permissions": ["activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": { "default_popup": "popup.html" },
+  "icons": {
+    "16": "ggss.png",
+    "48": "ggss.png",
+    "128": "ggss.png"
+  },
+  "web_accessible_resources": [
+    { "resources": ["ggss.png"], "matches": ["<all_urls>"] }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
