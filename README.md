@@ -1,7 +1,7 @@
 # Terms-and-Conditions-Scanner
 
 Timeline
-- Development: Dec 2-24 - Jan 2025 
+- Development: Dec 2024 - Jan 2025 
 - Public github release: aug 2025
 >Goose Guard is a chrome extension that scans Terms/Privacy pages, highlights risky clauses, and shows an explainable risk score with examples.
 
